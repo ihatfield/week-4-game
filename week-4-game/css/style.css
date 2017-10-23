@@ -1,0 +1,74 @@
+body {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-image: url("../images/bg.png");
+}
+
+#wrapper {
+	margin: auto;
+	padding: 20px;
+	float: none;
+	min-width: 460px;
+	max-width: 960px;
+}
+
+#title {
+	font-family: 'Bowlby One SC', cursive;	
+	background-image: url("../images/crystal_bg.png");
+	color: #FFF;
+	padding: 10px 0;
+	font-size: 48px;
+	text-align: center;
+	font-weight: 100;
+}
+
+#instructions {
+	background-color: #ddd;
+	padding: 10px 20px;
+	margin: 20px 0;
+	font-weight: 900;
+	font-size: 12px;
+	text-align: center;
+}
+
+#crystals {
+	margin: 20px 0;
+}
+
+#red, #green, #blue, #yellow {
+	padding: 5px;
+	float: left;
+	width: 25%;
+}
+
+#redNo, #blueNo, #yellowNo, #greenNo {
+	font-family: 'Bowlby One SC', cursive;
+	width: 25%;
+	text-align: center;
+	color: white;
+	background-color: black;
+	font-size: 28px;
+}
+
+#randomNum, #record, #score {
+	box-sizing: border-box;
+	font-family: 'Bowlby One SC', cursive;	
+	background-color: #4AAAA5;
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+	font-size: 28px;
+}
+
+#randomNum {
+	color: yellow;
+
+}
+
+#score {
+	color: white;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
